@@ -1,38 +1,8 @@
 # Fréchet Geodesic Boosting
 
-The code for the paper 'Fréchet Geodesic Boosting'.
+This repository contains codes necessary to replicate **Zhou, Iao and Müller (2025)**: “Fréchet Geodesic Boosting”. The `FGBoost` functions in the `code` folder, short for Fréchet Geodesic Boosting, are designed for modeling the relationship between multivariate predictors and metric space-valued responses.
 
-### Supporting software requirements
-
-R version 4.4.0
-
-### Libraries and dependencies used by the code
-
-R packages to run Fréchet Geodesic Boosting:
-
-* dplyr v 1.1.4
-* tidyverse v 2.0.0
-* frechet v 1.1.4
-* fdadensity v 0.1.2
-* Matrix v 1.7-0
-* geigen v 2.3
-* osqp v 0.6.3.3
-* MASS v 7.3-60.2
-* matrixcalc v 1.0-6
-* shapes 1.2.7
-* trust v 0.1-8
-* pracma v 2.4.4
-* purrr v 1.0.2
-* manifold v 0.1.1
-* foreach v 1.5.2
-* doSNOW v 1.0.20
-* parallel v 4.4.0
-* stats v 4.4.0
-* ggplot2 v 3.5.1
-* shapviz v 0.9.4
-* xgboost v 1.7.8.1
-
-### Folder Structure
+## Folder Structure
 
 * `./code` code for all functions used in the paper.
 * `./Code_RFWLFR` R functions to run Random Forest for non-Euclidean responses.
@@ -52,3 +22,22 @@ R packages to run Fréchet Geodesic Boosting:
 * `./Simulation/simu_laplacian_sketch.R` code to reproduce simulations in Section H for network data.
 * `./Simulation/simu_comp.R` code to reproduce simulations in Section A.1 of the appendix for compositional data.
 
+
+## Report Errors
+
+To report errors, please contact <siao@ucdavis.edu>. Comments and suggestions are welcome.
+
+## Citation
+
+The Full paper can be found in "[Fréchet Geodesic Boosting](https://neurips.cc/virtual/2025/poster/118012)".
+
+```         
+@inproceedings{zhou2025fgboost,
+  title={Fr{\'e}chet Geodesic Boosting},
+  author={Zhou, Yidong and Iao, Su I and M{\"u}ller, Hans-Georg},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={},
+  year={2025},
+  note={in press}
+}
+```
